@@ -1,2 +1,2 @@
 # OddGuard
- My Worldguard alternative.
+## My Worldguard alternative.

@@ -1,0 +1,48 @@
+name: OddGuard
+version: '${project.version}'
+main: dev.oddbyte.OddGuard
+api-version: '1.20'
+prefix: OddGuard
+load: POSTWORLD
+authors: [Oddbyte]
+description: My worldguard clone
+commands:
+  og:
+    description: Main command for OddGuard
+    usage: /<command>
+    aliases: [rg]
+  rg:
+    description: Alias for /og
+    usage: /<command>
+
+permissions:
+  oddguard.use:
+    description: Allows use of /og and its subcommands
+    default: true
+  oddguard.wand:
+    description: Allows use of /og wand
+    default: op
+  oddguard.flags:
+    description: Allows use of /og flag and /og flags
+    default: op
+  oddguard.bypass:
+    description: Allows use of /og bypass
+    default: op
+  oddguard.rename:
+    description: Allows use of /og rename
+    default: op
+  oddguard.list:
+    description: Allows use of /og list
+    default: op
+  oddguard.delete:
+    description: Allows use of /og delete
+    default: op
+  oddguard.create:
+    description: Allows use of /og create
+    default: op
+  oddguard.redefine:
+    description: Allows use of /og redefine
+    default: op
+  oddguard.tp:
+    description: Allows use of /rg tp
+    default: op
